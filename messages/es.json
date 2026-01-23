@@ -1,0 +1,35 @@
+{
+  "HomePage": {
+    "Hola, soy": "Hola, soy",
+    "Creativo, Analítico y Calaborativo": "Creativo, Analítico y Calaborativo",
+    "Microservicios": "Microservicios",
+    "Colab en diseño e implementación de microservicios": "Colab en diseño e implementación de microservicios",
+    "Prototipos": "Prototipos",
+    "Metodología Agile": "Metodología Agile",
+    "Conóceme": "Conóceme",
+    "Empresas": "Empresas",
+    "Estoy utilizando los mejores métodos de diseño líderes en mi trabajo": "Estoy utilizando los mejores métodos de diseño líderes en mi trabajo",
+    "Pasarelas de Pago": "Pasarelas de Pago",
+    "Proyectos": "Proyectos",
+    "Portafolio": "Portafolio",
+    "Trabajos Realizados": "Trabajos Realizados",
+    "Ver todos": "Ver todos",
+    "Volver": "Volver",
+    "Contácteme": "Contácteme",
+    "Siéntete libre de contactarme": "Siéntete libre de contactarme",
+    "Copyright": "Todos los derechos reservados",
+    "Ver todos los Proyectos": "Ver todos los Proyectos"
+  },
+  "ProjectPage": {
+    "Proyectos": "Projectos",
+    "Proyecto": "Projecto",
+    "Portafolio": "Portafolio",
+    "Microfrontend": "Microfrontend",
+    "Design System": "Design System",
+    "Autentifiaciones": "Autentificaciones",
+    "Aplicaciones Angular": "Aplicaciones Angular",
+    "Aplicaciones React / Next JS": "Aplicaciones React / Next JS",
+    "CMS / Ecommerce": "CMS / Ecommerce",
+    "Volver": "Volver"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "HomePage": {
+    "Hola, soy": "Hi, I am",
+    "Creativo, Analítico y Calaborativo": "Creative, Analytical and Collaborative",
+    "Microservicios": "Microservices",
+    "Colab en diseño e implementación de microservicios": "Collab in design and implementation of microservices",
+    "Prototipos": "Prototypes",
+    "Metodología Agile": "Agile Methodology",
+    "Conóceme": "About Me",
+    "Empresas": "Companies",
+    "Estoy utilizando los mejores métodos de diseño líderes en mi trabajo": "I am applying leading design methods in my work",
+    "Pasarelas de Pago": "Payment Gateways",
+    "Proyectos": "Projects",
+    "Proyecto": "Project",
+    "Portafolio": "Portfolio",
+    "Trabajos Realizados": "Completed Works",
+    "Ver todos": "Show All",
+    "Volver": "Back",
+    "Contácteme": "Contact Me",
+    "Siéntete libre de contactarme": "Feel free to contact me",
+    "Copyright": "All rights reserved",
+    "Ver todos los Proyectos": "See all Projects"
+  },
+  "ProjectPage": {
+    "Proyectos": "Projects",
+    "Proyecto": "Project",
+    "Portafolio": "Portfolio",
+    "Microfrontend": "Microfrontend",
+    "Design System": "Design System",
+    "Autentifiaciones": "Authentications",
+    "Aplicaciones Angular": "Angular Applications",
+    "Aplicaciones React / Next JS": "React / Next JS Applications",
+    "CMS / Ecommerce": "CMS / Ecommerce",
+    "Volver": "Back"
+  }
+}
