@@ -19,6 +19,9 @@ import vercel from './about/vercel.svg';
 import netlify from './about/netlify.svg';
 import git from './about/git.svg';
 import neon_console from './about/neon_console.svg';
+import iconMicrofrontend from "./about/IconMicrofrontend.png";
+import IconDesignsystem from "./about/IconDesignsystem.png";
+import IconAuth from "./about/IconAuth.png";
 
 // icons
 import archives from "./icon/archives.png";
@@ -37,6 +40,7 @@ import mail_fast from "./icon/mail_fast.svg";
 import calling from "./icon/calling.svg";
 import spain from "./icon/spain.svg";
 import usa from "./icon/usa.svg";
+
 //logos
 import BelcorpLogo from "./logo/BelcorpLogo.png";
 import favicon16x16 from "./logo/favicon16x16.png";
@@ -127,6 +131,9 @@ export const about = {
     "git" : git,
     "neon_console" : neon_console,
     "wordpress_logo" : wordpress_logo,
+    "iconMicrofrontend":iconMicrofrontend,
+    "IconDesignsystem":IconDesignsystem,
+    "IconAuth":IconAuth,
 }
 export const background = {
     "BG" : BG,

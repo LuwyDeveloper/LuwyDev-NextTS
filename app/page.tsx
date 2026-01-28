@@ -78,7 +78,7 @@ export default function Home() {
           className="snap-start snap-normal slide-sec grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 pt-10 lg:pt-16"
           id="service"
         >
-          <div className="px-7 pt-7 pb-5 bg-[#091530] rounded-2.5 shadow-customThree transition-all hover:bg-blue-500 duration-500">
+          <div className="px-7 pt-7 pb-5 bg-[#091530] rounded-xl transition-all hover:bg-blue-500 duration-500">
             <Image src={about.Frame3} alt="" />
             <h4 className="text-white text-2xl font-medium mt-3">
               Dev Front End
@@ -88,7 +88,7 @@ export default function Home() {
               Hooks
             </p>
           </div>
-          <div className="px-7 pt-7 pb-5 bg-[#091530] rounded-2.5 shadow-customThree transition-all hover:bg-blue-500 duration-500">
+          <div className="px-7 pt-7 pb-5 bg-[#091530] rounded-xl transition-all hover:bg-blue-500 duration-500">
             <Image src={about.Frame} alt="" />
             <h4 className="text-white text-2xl font-medium mt-3">
               {t("Microservicios")}
@@ -98,7 +98,7 @@ export default function Home() {
               RestFul, Spring Boot, Mysql, SQL Server, MongoDB
             </p>
           </div>
-          <div className="px-7 pt-7 pb-5 bg-[#091530] rounded-2.5 shadow-customThree transition-all hover:bg-blue-500 duration-500">
+          <div className="px-7 pt-7 pb-5 bg-[#091530] rounded-xl transition-all hover:bg-blue-500 duration-500">
             <Image src={about.Frame2} alt="" />
             <h4 className="text-white text-2xl font-medium mt-3">
               Ecommerce CMS
@@ -107,7 +107,36 @@ export default function Home() {
               SAP Commerce Cloud, Storefront, Woocomerce, Pasarelas de Pago
             </p>
           </div>
-          <div className="px-7 pt-7 pb-5 bg-[#091530] rounded-2.5 shadow-customThree transition-all hover:bg-blue-500 duration-500">
+
+          <div className="px-7 pt-7 pb-5 bg-[#091530] rounded-xl transition-all hover:bg-blue-500 duration-500">
+            <Image src={about.iconMicrofrontend} width={76} alt="" />
+            <h4 className="text-white text-2xl font-medium mt-3">
+              MicroFrontEnd
+            </h4>
+            <p className="text-indigo-200 text-sm mt-3">
+              Encapsulación en Workspace - Shell, Module y Vite Federation, Share UI + Tokens
+            </p>
+          </div>
+           <div className="px-7 pt-7 pb-5 bg-[#091530] rounded-xl transition-all hover:bg-blue-500 duration-500">
+            <Image src={about.IconAuth} width={76} alt="" />
+            <h4 className="text-white text-2xl font-medium mt-3">
+              Autentificación
+            </h4>
+            <p className="text-indigo-200 text-sm mt-3">
+              Angular 21 - React 19, roles, guards/interceptors y consumo de API REST JWT Tokens
+            </p>
+          </div>
+           <div className="px-7 pt-7 pb-5 bg-[#091530] rounded-xl transition-all hover:bg-blue-500 duration-500">
+            <Image src={about.IconDesignsystem} width={76} alt="" />
+            <h4 className="text-white text-2xl font-medium mt-3">
+              DesignSystem
+            </h4>
+            <p className="text-indigo-200 text-sm mt-3">
+              Centraliza tokens y una librería de UI Componentes, uso en React y Angular
+            </p>
+          </div>
+
+          <div className="px-7 pt-7 pb-5 bg-[#091530] rounded-xl transition-all hover:bg-blue-500 duration-500">
             <Image src={about.Frame4} alt="" />
             <h4 className="text-white text-2xl font-medium mt-3">
               UX Developer
@@ -116,7 +145,7 @@ export default function Home() {
               {t("Prototipos")}, design Tinking, Figma, Adobe XD, AI, PSD
             </p>
           </div>
-          <div className="px-7 pt-7 pb-5 bg-[#091530] rounded-2.5 shadow-customThree transition-all hover:bg-blue-500 duration-500">
+          <div className="px-7 pt-7 pb-5 bg-[#091530] rounded-xl transition-all hover:bg-blue-500 duration-500">
             <Image src={about.Frame6} alt="" />
             <h4 className="text-white text-2xl font-medium mt-3">
               {t("Metodología Agile")}
@@ -125,7 +154,7 @@ export default function Home() {
               Scrum y Kanban - Azure Board, Jira, MS Planner, Notion Trello.
             </p>
           </div>
-          <div className="px-7 pt-7 pb-5 bg-[#091530] rounded-2.5 shadow-customThree transition-all hover:bg-blue-500 duration-500">
+          <div className="px-7 pt-7 pb-5 bg-[#091530] rounded-xl transition-all hover:bg-blue-500 duration-500">
             <Image src={about.Frame5} alt="" />
             <h4 className="text-white text-2xl font-medium mt-3">
               E-mailing Marketing

@@ -28,20 +28,19 @@ const ProjectCard = ({ title, imageSrc, linkHref }: ProjectCardProps) => {
 export default function Projects() {
   return (
     <>
-      
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
         <ProjectCard
           title="Microfrontend"
           imageSrc={projects.microFrontend}
           linkHref="/proyectos/microfrontend"
         />
-                <ProjectCard
+        <ProjectCard
           title="Design System"
           imageSrc={projects.design_system2}
           linkHref="/proyectos/designsystem"
         />
         <ProjectCard
-          title="Autentifiaciones"
+          title="Autentificaciones"
           imageSrc={projects.AuthNest2}
           linkHref="/proyectos/autentificaciones"
         />

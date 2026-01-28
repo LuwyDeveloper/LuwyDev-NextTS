@@ -20,7 +20,7 @@ const routeConfig: Record<
     title: "Design System",
   },
     "/proyectos/autentificaciones": {
-    title: "Autentifiaciones",
+    title: "Autentificaciones",
   },
     "/proyectos/angular": {
     title: "Aplicaciones Angular",
