@@ -50,7 +50,8 @@ const microfrontend21 = {
       ],
     },
   },
-  link: "https://microfrontend-angular21.up.railway.app",
+  // link: "https://microfrontend-angular21.up.railway.app",
+  link: "https://github.com/LuwyDeveloper/MicroFrontEnd-A21-Cart",
 };
 
 const microfrontendReact = {
@@ -97,7 +98,8 @@ const microfrontendReact = {
     },
 
   },
-  link: "https://monorepo-microf-luwydev.up.railway.app",
+  // link: "https://monorepo-microf-luwydev.up.railway.app",
+  link: "https://github.com/LuwyDeveloper/MonoRepo-MicroFrontend",
 };
 
 

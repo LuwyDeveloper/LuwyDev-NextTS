@@ -132,7 +132,8 @@ const authReact = {
       ],
     },
   },
-  link: "https://authnest-luwy.up.railway.app",
+  // link: "https://authnest-luwy.up.railway.app",
+  link: "https://github.com/LuwyDeveloper/AuthNest",
 };
 
 
