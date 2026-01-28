@@ -9,7 +9,7 @@ interface ProjectCardProps {
 }
 const ProjectCard = ({ title, imageSrc, linkHref }: ProjectCardProps) => {
   const styleCard =
-    "flex flex-col items-center gap-4 bg-slate-950 rounded-lg p-6 border border-primary text-center text-white";
+    "flex flex-col items-center gap-4 bg-slate-950 rounded-lg p-6 border border-blue-900 text-center text-white";
   const styleCardh3 = "text-2xl font-semibold";
   const styleCardButton =
     "bg-blue-500 hover:bg-blue-600 transition-all px-6 py-3 rounded-lg w-fit";
