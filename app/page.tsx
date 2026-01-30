@@ -114,16 +114,16 @@ export default function Home() {
               MicroFrontEnd
             </h4>
             <p className="text-indigo-200 text-sm mt-3">
-              Encapsulación en Workspace - Shell, Module y Vite Federation, Share UI + Tokens
+              {t("Encapsulación en Workspace - Shell, Module y Vite Federation, Share UI + Tokens")}
             </p>
           </div>
            <div className="px-7 pt-7 pb-5 bg-[#091530] rounded-xl transition-all hover:bg-blue-500 duration-500">
             <Image src={about.IconAuth} width={76} alt="" />
             <h4 className="text-white text-2xl font-medium mt-3">
-              Autentificación
+              {t("Autentificacion")}
             </h4>
             <p className="text-indigo-200 text-sm mt-3">
-              Angular 21 - React 19, roles, guards/interceptors y consumo de API REST JWT Tokens
+              {t("Angular 21 - React 19, roles, guards/interceptors y consumo de API REST JWT Tokens")}
             </p>
           </div>
            <div className="px-7 pt-7 pb-5 bg-[#091530] rounded-xl transition-all hover:bg-blue-500 duration-500">
@@ -132,7 +132,7 @@ export default function Home() {
               DesignSystem
             </h4>
             <p className="text-indigo-200 text-sm mt-3">
-              Centraliza tokens y una librería de UI Componentes, uso en React y Angular
+              {t("Centraliza tokens y una librería de UI Componentes, uso en React y Angular")}
             </p>
           </div>
 

@@ -17,7 +17,7 @@ const microfrontend21 = {
   altImg: "Micro Frontend Angular 21",
   title: "MicroFrontEnd System",
   description:
-    "Desarrollado con Angular 21 como shell/remotes y un widget remoto en React (Vite + Module Federation), compartiendo estado (cart-state) y componentes UI (ui-kit) con estilos TailwindCSS v.4.1.",
+    "microfrontendPDescription1",
   details: {
     1: {
       title: "Tecnologías",
@@ -31,7 +31,7 @@ const microfrontend21 = {
       ],
     },
     2: {
-      title: "Herramientas:",
+      title: "Herramientas",
       items: [
         "Angular CLI",
         "Vite",
@@ -41,7 +41,7 @@ const microfrontend21 = {
       ],
     },
     3: {
-      title: "Arquitectura:",
+      title: "Arquitectura",
       items: [
         "Composición por runtime",
         "Singleton: Librerias Compartidas",
@@ -59,7 +59,7 @@ const microfrontendReact = {
   altImg: "Micro Frontend React",
   title: "MicroFrontend",
   description:
-    "Este proyecto implementa una arquitectura de 7 micro frontends encapsulada en Workspace - Shell compartiendo Tokens de UI - Design System",
+    "microfrontendPDescription2",
   details: {
     1: {
       title: "Tecnologías",
@@ -75,7 +75,7 @@ const microfrontendReact = {
       ],
     },
     2: {
-      title: "Arquitectura:",
+      title: "Arquitectura",
       items: [
         "Host/Shell",
         "Remotes",
@@ -85,7 +85,7 @@ const microfrontendReact = {
       ],
     },
     3: {
-      title: "Seguridad/Auth:",
+      title: "Seguridad/Auth",
       items: [
         "Autenticación basada en JWT",
         "LocalStorage",
@@ -106,7 +106,6 @@ const microfrontendReact = {
 export default function MicrofrontendPage() {
   return (
     <>
-
       <ProjectInfo project={microfrontend21} />
       <hr className="text-blue-900 md:mb-12 mb-8 mt-8 border-2" />
       <ProjectInfo project={microfrontendReact} invert/>

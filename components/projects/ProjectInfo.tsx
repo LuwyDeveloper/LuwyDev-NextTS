@@ -1,5 +1,6 @@
 "use client";
 import Image, { StaticImageData } from "next/image";
+import { useTranslations } from "next-intl";
 
 import "swiper/css";
 import "swiper/css/navigation";
@@ -31,6 +32,7 @@ export const ProjectInfo = ({ project, invert = false }: ProjectInfoProps) => {
   const styleListUnordered = "list-disc pl-5 mb-3";
   const styleListItemOrdered = "text-white text-base font-normal";
   const styleListItemUnordered = "marker:text-primary font-light";
+  const t = useTranslations("ProjectsInfo");
 
 const swiperOrder =
   invert === false ? "" : "xl:order-2 order-1";
@@ -65,17 +67,17 @@ const contentOrder =
             <h2 className="text-2xl text-white font-medium mb-4">
               {project.title}
             </h2>
-            <p className="text-white mb-3">{project.description}</p>
+            <p className="text-white mb-3">{t(project.description) && "No Translation - Description"}</p>
             <div className="mb-2">
               {project.subtitle && (
                 <p className="text-white text-xl font-medium mb-2">
-                  {project.subtitle}
+                  {t(project.subtitle) || "No Translation - subtitle"}
                 </p>
               )}
               <ol className={styleListOrdered}>
                 {Object.values(project.details).map((detail, index) => (
                   <li key={index} className={styleListItemOrdered}>
-                    {detail.title}
+                    {t(detail.title) || "No Translation - Title Detail"}:
                     <ul className={styleListUnordered}>
                       {detail.items.map((item, idx) => (
                         <li key={idx} className={styleListItemUnordered}>
@@ -95,7 +97,7 @@ const contentOrder =
               target="_blank"
               rel="noopener noreferrer"
             >
-              Ver sitio
+              {t("Ver sitio")}
             </a>
             {project.linkNpm && (
               <a
@@ -104,7 +106,7 @@ const contentOrder =
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Ver Token NPM
+                {t("Ver Token NPM")}
               </a>
             )}
           </div>

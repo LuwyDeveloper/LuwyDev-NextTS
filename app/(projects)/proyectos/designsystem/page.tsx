@@ -2,7 +2,6 @@ import { Metadata } from "next";
 import { projects } from "@/assets/imagenes";
 import { ProjectInfo } from "@/components/projects/ProjectInfo";
 
-
 export const metadata: Metadata = {
   title: "Design System",
   description:
@@ -11,13 +10,16 @@ export const metadata: Metadata = {
     "Luwy, Design System, React, Tokens, Componentes, Librería UI, Documentación, Monorepo, pnpm, Turborepo, Storybook",
 };
 
-
 const designSystem = {
-  images: [projects.design_system1, projects.design_system2, projects.design_system3],
+  images: [
+    projects.design_system1,
+    projects.design_system2,
+    projects.design_system3,
+  ],
   title: "Design System",
   description:
-    "Monorepo de Design System que centraliza design tokens y una librería de componentes React, con un portal de documentación para validar y demostrar su uso.",
-    subtitle:"Tecnologías:",
+    "designsystemPDescription1",
+  subtitle: "Tecnologías",
   details: {
     1: {
       title: "Monorepo / Gestión de paquetes",
@@ -38,7 +40,7 @@ const designSystem = {
       ],
     },
     3: {
-      title: "Autenticación:",
+      title: "Autenticación",
       items: [
         "Firebase ^12.6.0 — Login con Google",
         "Singleton: Librerias Compartidas",
@@ -62,7 +64,7 @@ const designSystem = {
         "Tailwind CSS v4",
       ],
     },
-        5: {
+    5: {
       title: "Design Tokens — packages/tokens",
       items: [
         "Style Dictionary ^3.9.0 para generar tokens a CSS/JS",
@@ -70,13 +72,11 @@ const designSystem = {
         "Preset Tailwind (mapea tokens → theme.extend) — tailwind-preset.js",
       ],
     },
-            6: {
+    6: {
       title: "Calidad / Lint",
-      items: [
-        "ESLint ^9.36.0 (flat config) + typescript-eslint ^8.45.0",
-      ],
+      items: ["ESLint ^9.36.0 (flat config) + typescript-eslint ^8.45.0"],
     },
-            7: {
+    7: {
       title: "Versionado y publicación",
       items: [
         "Changesets @changesets/cli@^2.29.7",
@@ -86,7 +86,7 @@ const designSystem = {
     },
   },
   link: "https://luwy-designsystem.netlify.app",
-    linkNpm: "https://github.com/orgs/LuwyDyroWeb/packages",
+  linkNpm: "https://github.com/orgs/LuwyDyroWeb/packages",
 };
 
 export default function DesignSystemPage() {

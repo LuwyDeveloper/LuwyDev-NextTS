@@ -17,7 +17,7 @@ const authAngular = {
   altImg: "Luwy Admin Auth Angular",
   title: "Admin Auth Angular 21",
   description:
-    "Dashboard/Admin en Angular 21 (Signals + zoneless con autenticación (login) y autorización por roles, con seguridad por guards/interceptors y consumo de API REST (DummyJSON).",
+    "autentificacionPDescription1",
   details: {
     1: {
       title: "Tecnologías",
@@ -32,7 +32,7 @@ const authAngular = {
       ],
     },
     2: {
-      title: "Arquitectura:",
+      title: "Arquitectura",
       items: [
         "Standalone Bootstrap",
         "Zoneless",
@@ -43,7 +43,7 @@ const authAngular = {
       ],
     },
     3: {
-      title: "Seguridad/Auth:",
+      title: "Seguridad/Auth",
       items: [
         "Login: Reactive Form",
         "Estado global",
@@ -56,7 +56,7 @@ const authAngular = {
       ],
     },
     4: {
-      title: "Performance/UX:",
+      title: "Performance/UX",
       items: [
         "Cache interceptor con TTL",
         "Skeleton loading",
@@ -72,7 +72,7 @@ const authReact = {
   altImg: "Luwy Admin Auth React",
   title: "Admin Auth React 19",
   description:
-    "Sistema de autenticación en React + TypeScript, con Zustand como estado global, integrado con backend propio en NestJS y Firebase Authentication, con control avanzado de sesión, expiración, inactividad y UX en dashboard.",
+    "autentificacionPDescription2",
   details: {
     1: {
       title: "Tecnologías",
@@ -86,7 +86,7 @@ const authReact = {
       ],
     },
     2: {
-      title: "Arquitectura:",
+      title: "Arquitectura",
       items: [
         "Store global de autenticación (auth.store.ts)",
         "Store dedicado para inactividad del usuario (idle.store)",
@@ -97,7 +97,7 @@ const authReact = {
       ],
     },
     3: {
-      title: "Seguridad/Auth:",
+      title: "Seguridad/Auth",
       items: [
         "Login tradicional (usuario y contraseña) vía API REST (NestJS)",
         "Login con Google (Firebase Auth)",
@@ -106,7 +106,7 @@ const authReact = {
       ],
     },
     4: {
-      title: "Manejo de Sesión:",
+      title: "Manejo de Sesión",
       items: [
         "Verificación activa de sesión (checkSession)",
         "Duración de sesión configurable (TTL)",
@@ -116,7 +116,7 @@ const authReact = {
       ],
     },
      5: {
-      title: "Control de Inactividad:",
+      title: "Control de Inactividad",
       items: [
         "Detección de inactividad del usuario (idle timeout)",
         "Logout automático tras 1 minuto sin interacción",
@@ -124,7 +124,7 @@ const authReact = {
       ],
     },
      6: {
-      title: "Dashboard / UX:",
+      title: "Dashboard / UX",
       items: [
         "Dashboard protegido por autenticación",
         "Visualización de datos con ApexCharts",
