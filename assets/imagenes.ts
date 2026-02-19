@@ -1,10 +1,10 @@
 // bg
-import BG from './bg/BG.png';
+import BG from './bg/BG.jpg';
 // about
 import react_next_vite from './about/react_next_vite.png';
 import ajn from './about/angular_jest_ngrx.png';
 import Databases_logo from './about/Databases_logo.png';
-import dskill from './about/dskill.png';
+import dskill from './about/dskill.jpg';
 import Frame from './about/Frame.svg';
 import Frame2 from './about/Frame2.svg';
 import Frame3 from './about/Frame3.svg';

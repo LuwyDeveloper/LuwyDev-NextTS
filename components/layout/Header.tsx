@@ -1,6 +1,6 @@
 "use client";
 import Image from "next/image";
-import { logos, icons } from "@/assets/imagenes";
+import { logos } from "@/assets/imagenes";
 import { ButtonLang } from "../ButtonLanguage";
 import { motion } from "motion/react";
 import Link from "next/link";
