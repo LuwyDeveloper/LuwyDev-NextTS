@@ -26,11 +26,7 @@ export const Header = ({ className }: HeaderProps) => {
             <Image src={logos.logo_LD} alt="logo" width={20} />
           </motion.div>
           <Link href={"/"}>
-            <Image
-              src={logos.logo_luwydyro}
-              alt="logo"
-              width={91}
-            />
+            <Image src={logos.logo_luwydyro} alt="logo" width={91} />
           </Link>
         </div>
 
@@ -41,13 +37,29 @@ export const Header = ({ className }: HeaderProps) => {
         </div>
       </div>
       <div className="flex gap-10 items-center">
-        <div className="flex gap-1.5 justify-between text text-lg font-normal text-zinc-400">
-          <Image src={icons.mail_fast} alt="Correo" />
-          <p className="text-neutral-500 text-lg hover:text-white transition-all">
-            <a href="mailto:luwy.dyro@gmail.com">luwy.dyro@gmail.com</a>
-          </p>
-        </div>
+
         <div className="sm:flex gap-2.5 hidden">
+          <a
+            href="mailto:luwy.dyro@gmail.com"
+            rel="noreferrer"
+            className="w-10 h-10 flex justify-center items-center rounded-lg bg-zinc-50/10 group transition-all hover:bg-blue-500"
+          >
+            <svg
+              height="18"
+              viewBox="0 0 16 16"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M0 5.3585V14H16V5.35849L8 10.3585L0 5.3585Z"
+                className="fill-zinc-400 group-hover:fill-white"
+              />
+              <path
+                d="M16 3V2H0V3L8 8L16 3Z"
+                className="fill-zinc-400 group-hover:fill-white"
+              />
+            </svg>
+          </a>
           <a
             href="https://github.com/Luwy-Dyro"
             target="_blank"

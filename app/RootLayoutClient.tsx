@@ -19,9 +19,9 @@ const loadMessages = async (locale: Locale): Promise<Messages> => {
 };
 export default function RootLayoutClient({ children }: RootLayoutClientProps) {
   const [locale, setLocale] = useState<Locale>(() => {
-    if (typeof window === "undefined") return "es"
+    if (typeof window === "undefined") return "en"
     const savedLocale = localStorage.getItem("locale")
-    return savedLocale === "es" || savedLocale === "en" ? savedLocale : "es"
+    return savedLocale === "en" || savedLocale === "es" ? savedLocale : "en"
   });
   const [messages, setMessages] = useState<Messages | null>(null);
   const changeLocale = (newLocale: Locale) => {

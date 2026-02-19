@@ -55,8 +55,8 @@ export const ButtonLang = () => {
             onClick={() => changeLanguage("es")}
             className="flex items-center gap-2 px-2 py-1 text-sm rounded-lg hover:bg-gray-700 cursor-pointer"
           >
-            <Image src={icons.spain} alt="Español" width={16} height={16} />
-            Español
+            <Image src={icons.spain} alt="Spanish" width={16} height={16} />
+            Spanish
           </li>
 
           <li

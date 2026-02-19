@@ -61,5 +61,26 @@
     "microfrontendPDescription2": "Este proyecto implementa una arquitectura de 7 micro frontends encapsulada en Workspace - Shell compartiendo Tokens de UI - Design System",
     "designsystemPDescription1": "Monorepo de Design System que centraliza design tokens y una librería de componentes React, con un portal de documentación para validar y demostrar su uso.",
     "":""
+  },
+    "CardsHome": {
+    "Dev Front End": "Dev Front End",
+    "DevFrontEndDesc":"SPA, Web Components, SSR, CSR, Angular 19+, NextJS, RxJS, Signals, Hooks",
+    "Microservices":"Microservices",
+    "MicroservicesDesc":"Colab en diseño e implementación de microservicios, RestFul, Spring Boot, Mysql, SQL Server, MongoDB",
+    "Ecommerce CMS":"Ecommerce CMS",
+    "Ecommerce CMSDesc":"SAP Commerce Cloud, Storefront, Woocomerce, Pasarelas de Pago",
+    "MicroFrontEnd":"MicroFrontEnd",
+    "MicroFrontEndDesc":"Encapsulación en Workspace - Shell, Module y Vite Federation, Share UI + Tokens",
+    "Authentication":"Authentication",
+    "AuthenticationDesc":"Angular 21 - React 19, roles, guards/interceptors y consumo de API REST JWT Tokens",
+    "DesignSystem":"DesignSystem",
+    "DesignSystemDesc":"Centraliza tokens y una librería de UI Componentes, uso en React y Angular",
+    "UX Developer":"UX Developer",
+    "UX DeveloperDesc":"Prototipos, design Tinking, Figma, Adobe XD, AI, PSD",
+    "Agile Methodology":"Agile Methodology",
+    "Agile MethodologyDesc":"Scrum y Kanban - Azure Board, Jira, MS Planner, Notion Trello.",
+    "E-mailing Marketing":"E-mailing Marketing",
+    "E-mailing MarketingDesc":"Mailing responsive, SAP Marketing Cloud, Insider, Mailchimp, Hubsport"
   }
+
 }

@@ -66,7 +66,7 @@ export default function RootLayout({
 }) {
 
   return (
-    <html lang="es">
+    <html lang="en">
       <body className={`${worksans.className} antialiased`}>
         <RootLayoutClient>
           <PreLoader />

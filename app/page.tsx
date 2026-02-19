@@ -8,6 +8,8 @@ import { useTranslations } from "next-intl";
 import { SwiperEmpresa } from "@/components/Swipers/SwiperEmpresa";
 import { SwiperProyecto } from "@/components/Swipers/SwiperProyecto";
 import { WordsChange } from "@/components/WordsChange";
+import { CardSimple } from "@/components/CardSimple";
+import { ProgressBar } from "@/components/ProgressBar";
 
 export default function Home() {
   const t = useTranslations("HomePage");
@@ -63,7 +65,11 @@ export default function Home() {
                         className="absolute circle-text"
                         alt=""
                       />
-                      <Image src={profile.years10} className="absolute" alt="" />
+                      <Image
+                        src={profile.years10}
+                        className="absolute"
+                        alt=""
+                      />
                     </div>
                   </li>
                   <li className="absolute right-0 -bottom-10 z-50 hidden lg:block moveRightLeftPR">
@@ -78,92 +84,51 @@ export default function Home() {
           className="snap-start snap-normal slide-sec grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 pt-10 lg:pt-16"
           id="service"
         >
-          <div className="px-7 pt-7 pb-5 bg-[#091530] rounded-xl transition-all hover:bg-blue-500 duration-500">
-            <Image src={about.Frame3} alt="" />
-            <h4 className="text-white text-2xl font-medium mt-3">
-              Dev Front End
-            </h4>
-            <p className="text-indigo-200 text-sm mt-3">
-              SPA, Web Components, SSR, CSR, Angular 19+, NextJS, RxJS, Signals,
-              Hooks
-            </p>
-          </div>
-          <div className="px-7 pt-7 pb-5 bg-[#091530] rounded-xl transition-all hover:bg-blue-500 duration-500">
-            <Image src={about.Frame} alt="" />
-            <h4 className="text-white text-2xl font-medium mt-3">
-              {t("Microservicios")}
-            </h4>
-            <p className="text-indigo-200 text-sm mt-3">
-              {t("Colab en diseño e implementación de microservicios")},
-              RestFul, Spring Boot, Mysql, SQL Server, MongoDB
-            </p>
-          </div>
-          <div className="px-7 pt-7 pb-5 bg-[#091530] rounded-xl transition-all hover:bg-blue-500 duration-500">
-            <Image src={about.Frame2} alt="" />
-            <h4 className="text-white text-2xl font-medium mt-3">
-              Ecommerce CMS
-            </h4>
-            <p className="text-indigo-200 text-sm mt-3">
-              SAP Commerce Cloud, Storefront, Woocomerce, Pasarelas de Pago
-            </p>
-          </div>
-
-          <div className="px-7 pt-7 pb-5 bg-[#091530] rounded-xl transition-all hover:bg-blue-500 duration-500">
-            <Image src={about.iconMicrofrontend} width={76} alt="" />
-            <h4 className="text-white text-2xl font-medium mt-3">
-              MicroFrontEnd
-            </h4>
-            <p className="text-indigo-200 text-sm mt-3">
-              {t("Encapsulación en Workspace - Shell, Module y Vite Federation, Share UI + Tokens")}
-            </p>
-          </div>
-           <div className="px-7 pt-7 pb-5 bg-[#091530] rounded-xl transition-all hover:bg-blue-500 duration-500">
-            <Image src={about.IconAuth} width={76} alt="" />
-            <h4 className="text-white text-2xl font-medium mt-3">
-              {t("Autentificacion")}
-            </h4>
-            <p className="text-indigo-200 text-sm mt-3">
-              {t("Angular 21 - React 19, roles, guards/interceptors y consumo de API REST JWT Tokens")}
-            </p>
-          </div>
-           <div className="px-7 pt-7 pb-5 bg-[#091530] rounded-xl transition-all hover:bg-blue-500 duration-500">
-            <Image src={about.IconDesignsystem} width={76} alt="" />
-            <h4 className="text-white text-2xl font-medium mt-3">
-              DesignSystem
-            </h4>
-            <p className="text-indigo-200 text-sm mt-3">
-              {t("Centraliza tokens y una librería de UI Componentes, uso en React y Angular")}
-            </p>
-          </div>
-
-          <div className="px-7 pt-7 pb-5 bg-[#091530] rounded-xl transition-all hover:bg-blue-500 duration-500">
-            <Image src={about.Frame4} alt="" />
-            <h4 className="text-white text-2xl font-medium mt-3">
-              UX Developer
-            </h4>
-            <p className="text-indigo-200 text-sm mt-3">
-              {t("Prototipos")}, design Tinking, Figma, Adobe XD, AI, PSD
-            </p>
-          </div>
-          <div className="px-7 pt-7 pb-5 bg-[#091530] rounded-xl transition-all hover:bg-blue-500 duration-500">
-            <Image src={about.Frame6} alt="" />
-            <h4 className="text-white text-2xl font-medium mt-3">
-              {t("Metodología Agile")}
-            </h4>
-            <p className="text-indigo-200 text-sm mt-3">
-              Scrum y Kanban - Azure Board, Jira, MS Planner, Notion Trello.
-            </p>
-          </div>
-          <div className="px-7 pt-7 pb-5 bg-[#091530] rounded-xl transition-all hover:bg-blue-500 duration-500">
-            <Image src={about.Frame5} alt="" />
-            <h4 className="text-white text-2xl font-medium mt-3">
-              E-mailing Marketing
-            </h4>
-            <p className="text-indigo-200 text-sm mt-3">
-              Mailing responsive, SAP Marketing Cloud, Insider, Mailchimp,
-              Hubsport
-            </p>
-          </div>
+          <CardSimple
+            image={about.Frame3}
+            title="Dev Front End"
+            description="DevFrontEndDesc"
+          />
+          <CardSimple
+            image={about.Frame3}
+            title="Microservices"
+            description="MicroservicesDesc"
+          />
+          <CardSimple
+            image={about.Frame3}
+            title="Ecommerce CMS"
+            description="Ecommerce CMSDesc"
+          />
+          <CardSimple
+            image={about.Frame3}
+            title="MicroFrontEnd"
+            description="MicroFrontEndDesc"
+          />
+          <CardSimple
+            image={about.Frame3}
+            title="Authentication"
+            description="AuthenticationDesc"
+          />
+          <CardSimple
+            image={about.Frame3}
+            title="DesignSystem"
+            description="DesignSystemDesc"
+          />
+          <CardSimple
+            image={about.Frame3}
+            title="UX Developer"
+            description="UX DeveloperDesc"
+          />
+          <CardSimple
+            image={about.Frame3}
+            title="Agile Methodology"
+            description="Agile MethodologyDesc"
+          />
+          <CardSimple
+            image={about.Frame3}
+            title="E-mailing Marketing"
+            description="E-mailing MarketingDesc"
+          />
         </div>
         <div
           className="snap-start snap-normal slide-sec mx-auto lg:max-w-7xl pt-10 lg:pt-16 pb-12"
@@ -187,163 +152,53 @@ export default function Home() {
                 </p>
               </div>
               <div className="mb-10 space-y-4">
-                <div className="relative">
-                  <b className="text-lg font-normal text-neutral-100 block mb-3">
-                    Angular/NextJs
-                  </b>
-                  <div className="w-full h-2 rounded flex items-center overflow-hidden growAnimation">
-                    <div
-                      className="bg-blue-500 h-2 rounded origin-left"
-                      style={{ width: "90%" }}
-                    ></div>
-                  </div>
-                </div>
-                <div className="relative">
-                  <b className="text-lg font-normal text-neutral-100 block mb-3">
-                    TailwindCSS/Bootstrap/DeysiUI/Material UI/SCSS
-                  </b>
-                  <div className="w-full h-2 rounded flex items-center overflow-hidden growAnimation">
-                    <div
-                      className="bg-blue-500 h-2 rounded origin-left"
-                      style={{ width: "100%" }}
-                    ></div>
-                  </div>
-                </div>
-                <div className="relative">
-                  <b className="text-lg font-normal text-neutral-100 block mb-3">
-                    Post CSS / BEM / OOCSS / SMACSS
-                  </b>
-                  <div className="w-full h-2 rounded flex items-center overflow-hidden growAnimation">
-                    <div
-                      className="bg-blue-500 h-2 rounded origin-left"
-                      style={{ width: "100%" }}
-                    ></div>
-                  </div>
-                </div>
-
-                <div className="relative">
-                  <b className="text-lg font-normal text-neutral-100 block mb-3">
-                    RxJS, Signals, Effect, Auth, NgRX
-                  </b>
-                  <div className="w-full h-2 flex items-center rounded overflow-hidden growAnimation">
-                    <div
-                      className="bg-blue-500 h-2 rounded origin-left"
-                      style={{ width: "75%" }}
-                    ></div>
-                  </div>
-                </div>
-                <div className="relative">
-                  <b className="text-lg font-normal text-neutral-100 block mb-3">
-                    Unit Test, Jest, TDD
-                  </b>
-                  <div className="w-full h-2 flex items-center rounded overflow-hidden growAnimation">
-                    <div
-                      className="bg-blue-500 h-2 rounded origin-left"
-                      style={{ width: "75%" }}
-                    ></div>
-                  </div>
-                </div>
-                <div className="relative">
-                  <b className="text-lg font-normal text-neutral-100 block mb-3">
-                    SQL/MySQL/MongoDb/Firestore
-                  </b>
-                  <div className="w-full h-2 flex items-center rounded overflow-hidden growAnimation">
-                    <div
-                      className="bg-blue-500 h-2 rounded origin-left"
-                      style={{ width: "70%" }}
-                    ></div>
-                  </div>
-                </div>
-                <div className="relative">
-                  <b className="text-lg font-normal text-neutral-100 block mb-3">
-                    PSD/Figma/Illustrator
-                  </b>
-                  <div className="w-full h-2 flex items-center rounded overflow-hidden growAnimation">
-                    <div
-                      className="bg-blue-500 h-2 rounded origin-left"
-                      style={{ width: "90%" }}
-                    ></div>
-                  </div>
-                </div>
-
-                <div className="relative">
-                  <b className="text-lg font-normal text-neutral-100 block mb-3">
-                    Scrum/Kanban/JIRA/Board Azure
-                  </b>
-                  <div className="w-full h-2 flex items-center rounded overflow-hidden growAnimation">
-                    <div
-                      className="bg-blue-500 h-2 rounded origin-left"
-                      style={{ width: "95%" }}
-                    ></div>
-                  </div>
-                </div>
-                <div className="relative">
-                  <b className="text-lg font-normal text-neutral-100 block mb-3">
-                    GitHub, GitLab, BitBucket, Docker
-                  </b>
-                  <div className="w-full h-2 flex items-center rounded overflow-hidden growAnimation">
-                    <div
-                      className="bg-blue-500 h-2 rounded origin-left"
-                      style={{ width: "85%" }}
-                    ></div>
-                  </div>
-                </div>
-                <div className="relative">
-                  <b className="text-lg font-normal text-neutral-100 block mb-3">
-                    EsLint / Prettier / Lighthouse / PageSpeed / BrowserStack
-                  </b>
-                  <div className="w-full h-2 flex items-center rounded overflow-hidden growAnimation">
-                    <div
-                      className="bg-blue-500 h-2 rounded origin-left"
-                      style={{ width: "100%" }}
-                    ></div>
-                  </div>
-                </div>
-                <div className="relative">
-                  <b className="text-lg font-normal text-neutral-100 block mb-3">
-                    Webpack, Module - Vite Federation
-                  </b>
-                  <div className="w-full h-2 flex items-center rounded overflow-hidden growAnimation">
-                    <div
-                      className="bg-blue-500 h-2 rounded origin-left"
-                      style={{ width: "80%" }}
-                    ></div>
-                  </div>
-                </div>
-
-                <div className="relative">
-                  <b className="text-lg font-normal text-neutral-100 block mb-3">
-                    Azure, Render, Vercel, Netlify, Neon Console, Firebase
-                  </b>
-                  <div className="w-full h-2 flex items-center rounded overflow-hidden growAnimation">
-                    <div
-                      className="bg-blue-500 h-2 rounded origin-left"
-                      style={{ width: "85%" }}
-                    ></div>
-                  </div>
-                </div>
-                <div className="relative">
-                  <b className="text-lg font-normal text-neutral-100 block mb-3">
-                    SAP Commerce Cloud/Composable Store Front (Angular20)
-                  </b>
-                  <div className="w-full h-2 flex items-center rounded overflow-hidden growAnimation">
-                    <div
-                      className="bg-blue-500 h-2 rounded origin-left"
-                      style={{ width: "80%" }}
-                    ></div>
-                  </div>
-                </div>
-                <div className="relative">
-                  <b className="text-lg font-normal text-neutral-100 block mb-3">
-                    CMS (WooCommerce – {t("Pasarelas de Pago")})
-                  </b>
-                  <div className="w-full h-2 flex items-center rounded overflow-hidden growAnimation">
-                    <div
-                      className="bg-blue-500 h-2 rounded origin-left"
-                      style={{ width: "90%" }}
-                    ></div>
-                  </div>
-                </div>
+                <ProgressBar title="Angular/NextJs" progress={90} />
+                <ProgressBar
+                  title="TailwindCSS/Bootstrap/DeysiUI/Material UI/SCSS"
+                  progress={100}
+                />
+                <ProgressBar
+                  title="Post CSS / BEM / OOCSS / SMACSS"
+                  progress={100}
+                />
+                <ProgressBar
+                  title="RxJS, Signals, Effect, Auth, NgRX"
+                  progress={75}
+                />
+                <ProgressBar title="Unit Test, Jest, TDD" progress={75} />
+                <ProgressBar
+                  title="SQL/MySQL/MongoDb/Firestore"
+                  progress={70}
+                />
+                <ProgressBar title="PSD/Figma/Illustrator" progress={90} />
+                <ProgressBar
+                  title="Scrum/Kanban/JIRA/Board Azure"
+                  progress={95}
+                />
+                <ProgressBar
+                  title="GitHub, GitLab, BitBucket, Docker"
+                  progress={85}
+                />
+                <ProgressBar
+                  title="EsLint / Prettier / Lighthouse / PageSpeed / BrowserStack"
+                  progress={100}
+                />
+                <ProgressBar
+                  title="Webpack, Module - Vite Federation"
+                  progress={80}
+                />
+                <ProgressBar
+                  title="Azure, Render, Vercel, Netlify, Neon Console, Firebase"
+                  progress={85}
+                />
+                <ProgressBar
+                  title="SAP Commerce Cloud/Composable Store Front (Angular20)"
+                  progress={80}
+                />
+                <ProgressBar
+                  title=" CMS (WooCommerce – Payment Gateways)"
+                  progress={90}
+                />
               </div>
             </div>
             <div className="lg:w-1/2 hidden lg:block">
