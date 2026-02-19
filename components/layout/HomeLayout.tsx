@@ -14,7 +14,7 @@ export function HomeLayout({ children }: Props) {
     <>
       <HomeHeaderMobile />
       <div
-        className="flex justify-center flex-col items-center  md:h-full"
+        className="flex justify-center flex-col items-center sm:h-full"
       >
         <Image
           src="/BG.jpg"
@@ -22,7 +22,7 @@ export function HomeLayout({ children }: Props) {
           fill
           priority
           fetchPriority="high"
-          className="object-cover"
+          className="object-cover sm:block hidden" 
         />
         <Header />
         <main className="container pt-0">
