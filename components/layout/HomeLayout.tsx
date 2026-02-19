@@ -3,23 +3,27 @@ import { Sidebar } from "@/components/layout/Sidebar";
 import { HomeHeaderMobile } from "./HomeHeaderMobile";
 import { Header } from "./Header";
 import { Footer } from "./Footer";
-import { background } from "@/assets/imagenes";
+import Image from "next/image";
 
 type Props = {
   children: ReactNode;
 };
 
 export function HomeLayout({ children }: Props) {
-  const backgroundStyle = {
-    backgroundImage: `url(${background.BG.src})`,
-  };
   return (
     <>
       <HomeHeaderMobile />
       <div
-        style={backgroundStyle}
-        className="flex justify-center flex-col items-center bg-no-repeat bg-cover  md:h-full"
+        className="flex justify-center flex-col items-center  md:h-full"
       >
+        <Image
+          src="/BG.jpg"
+          alt="Background"
+          fill
+          priority
+          fetchPriority="high"
+          className="object-cover"
+        />
         <Header />
         <main className="container pt-0">
           <div className="w-full flex justify-center items-center sm:relative px-3 sm:px-8 lg:px-12 2xl:px-0">
