@@ -310,17 +310,7 @@ a {
   display: inline-flex;
   color: #fff;
 }
-@media screen and (max-width: 27rem) {
-  .footer .text_1 {
-    padding: 1.25rem 0 0.625rem;
-  }
-  .footer .text_2 {
-    padding: 0 0 1.25rem;
-  }
-  .footer span {
-    display: none;
-  }
-}
+
 
 .footer .text_1 {
   display: inline-flex;
