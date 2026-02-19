@@ -63,7 +63,7 @@ export default function Home() {
                         className="absolute circle-text"
                         alt=""
                       />
-                      <Image src={profile.years5} className="absolute" alt="" />
+                      <Image src={profile.years10} className="absolute" alt="" />
                     </div>
                   </li>
                   <li className="absolute right-0 -bottom-10 z-50 hidden lg:block moveRightLeftPR">

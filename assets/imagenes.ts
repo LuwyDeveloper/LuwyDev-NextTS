@@ -67,7 +67,7 @@ import materialUI_logo from "./logo/materialUI_logo.svg";
 import figma_logo from "./logo/figma_logo.svg";
 
 //profile
-import years5 from "./profile/years5.png";
+import years10 from "./profile/years10.png";
 import customar from "./profile/customar.png";
 import person from "./profile/person.png";
 import text_circle from "./profile/text_circle.png";
@@ -182,7 +182,7 @@ export const logos = {
 "figma_logo" : figma_logo,
 }
 export const profile = {
-    "years5" : years5,
+    "years10" : years10,
     "person" : person,
     "customar" : customar,
     "text_circle" : text_circle,
