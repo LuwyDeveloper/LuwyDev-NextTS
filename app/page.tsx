@@ -54,7 +54,12 @@ export default function Home() {
             <div className="lg:col-span-1">
               <div className="relative h-full">
                 <div className="relative z-30 pr-5">
-                  <Image src={profile.person} alt="" />
+                  <Image
+                    priority
+                    fetchPriority="high"
+                    src={profile.person}
+                    alt="LuwyDev"
+                  />
                 </div>
                 <ul>
                   <li className="absolute top-56 z-50 hidden lg:block">
