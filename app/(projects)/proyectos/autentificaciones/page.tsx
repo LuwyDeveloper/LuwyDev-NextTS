@@ -4,11 +4,11 @@ import { ProjectInfo } from "@/components/projects/ProjectInfo";
 
 
 export const metadata: Metadata = {
-  title: "Autentificaciones",
+  title: "Authentications",
   description:
-    "Autentificaciones - Sistemas de autenticación desarrollados en Angular y React, con integración a backend y Firebase Authentication.",
+    "Authentications - Authentication systems developed in Angular and React, with integration to backend and Firebase Authentication.",
   keywords:
-    "Luwy, Autentificaciones, Angular, React, Firebase, NestJS, Seguridad, Login, Logout, Gestión de Sesión",
+    "Luwy, Authentications, Angular, React, Firebase, NestJS, Security, Login, Logout, Session Management",
 };
 
 

@@ -5,9 +5,9 @@ import { ProjectInfo } from "@/components/projects/ProjectInfo";
 export const metadata: Metadata = {
   title: "Design System",
   description:
-    "Design System - Monorepo que centraliza design tokens y una librería de componentes React, con un portal de documentación.",
+    "Design System - Monorepo that centralizes design tokens and a React component library, with a documentation portal.",
   keywords:
-    "Luwy, Design System, React, Tokens, Componentes, Librería UI, Documentación, Monorepo, pnpm, Turborepo, Storybook",
+    "Luwy, Design System, React, Tokens, Components, UI Library, Documentation, Monorepo, pnpm, Turborepo, Storybook",
 };
 
 const designSystem = {

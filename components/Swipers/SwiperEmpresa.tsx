@@ -58,7 +58,7 @@ export const SwiperEmpresa = () => {
         <SwiperSlide className={stylesSwiperSlide}>
           <div className={stylesSwiperSlidediv}>
             <a
-              href="https://luwydev.com/jjm/"
+              href="https://mudanzamovinghouse.com/jjm/"
               rel="noopener noreferrer"
               target="_blank"
             >
@@ -178,7 +178,7 @@ export const SwiperEmpresa = () => {
         <SwiperSlide className={stylesSwiperSlide}>
           <div className={stylesSwiperSlidediv}>
             <a
-              href="https://luwydev.com/jjm/"
+              href="https://mudanzamovinghouse.com/jjm/"
               rel="noopener noreferrer"
               target="_blank"
             >

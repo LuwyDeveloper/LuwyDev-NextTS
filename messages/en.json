@@ -25,6 +25,14 @@
     "Copyright": "All rights reserved",
     "Ver todos los Proyectos": "See all Projects"
   },
+    "Menu": {
+    "Home":"Home",
+    "Services":"Services",
+    "About Me":"About Me",
+    "Portfolio":"Portfolio",
+    "Companies":"Companies",
+    "Contact":"Contact"
+  },
   "ProjectPage": {
     "Proyectos": "Projects",
     "Proyecto": "Project",
@@ -56,12 +64,12 @@
     "Control de Inactividad": "Inactivity Control",
     "Dashboard / UX": "Dashboard / UX",
     "Versionado y publicación": "Versioning and Publishing",
-    "autentificacionPDescription1":" Dashboard/Admin in Angular 21 (Signals + zoneless with authentication (login) and role-based authorization, with security through guards/interceptors and consumption of REST API (DummyJSON).",
+    "autentificacionPDescription1":"Dashboard/Admin in Angular 21 (Signals + zoneless with authentication (login) and role-based authorization, with security through guards/interceptors and consumption of REST API (DummyJSON).",
     "autentificacionPDescription2": "Authentication system in React + TypeScript, with Zustand as global state, integrated with custom backend in NestJS and Firebase Authentication, featuring advanced session control, expiration, inactivity, and UX in dashboard.",
     "microfrontendPDescription1": "Developed with Angular 21 as shell/remotes and a remote widget in React (Vite + Module Federation), sharing state (cart-state) and UI components (ui-kit) with TailwindCSS v.4.1 styles.",
     "microfrontendPDescription2": "This project implements a 7 micro frontends architecture encapsulated in Workspace - Shell sharing UI Tokens - Design System",
     "designsystemPDescription1": "Design System monorepo that centralizes design tokens and a React component library, with a documentation portal to validate and demonstrate its use.",
-    "":""
+    "none":""
   },
     "CardsHome": {
     "Dev Front End": "Dev Front End",

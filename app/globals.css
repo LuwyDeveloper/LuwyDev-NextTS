@@ -118,15 +118,25 @@ a {
   font-size: 0rem;
 }
 
-@media screen and (max-width: 25rem) {
-  .head_title_home .text_1 {
-    font-size: 1.625rem;
+@media screen and (max-width: 349px) {
+  .textF_1 {
+    margin: 13px 0 0px;
+    padding: 0 5px;
   }
 
-  .head_title_home .text_2 {
-    font-size: 1.125rem;
+  .textF_2 {
+    margin: 10px 0 13px;
+    padding: 0 5px;
   }
+  
+  .footer {
+    :where(& > :not(:last-child)) {
+        --tw-border-style: none;
+        border-style: none;
+    }
 }
+}
+
 .smooth-scroll {
   scroll-behavior: smooth !important;
 }
@@ -306,15 +316,7 @@ a {
 /* End texto */
 /* footer */
 
-.footer .text_1 {
-  display: inline-flex;
-  color: #fff;
-}
 
-
-.footer .text_1 {
-  display: inline-flex;
-}
 
 .footer img {
   max-width: 6.875rem;

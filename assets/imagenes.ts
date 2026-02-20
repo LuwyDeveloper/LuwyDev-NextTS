@@ -75,6 +75,7 @@ import w_circle from "./profile/w_circle.png";
 //projects
 import belcorp from "./projects/belcorp.jpg";
 import removex from "./projects/removex.jpg";
+import tepwebs from "./projects/tuempresaprimero.jpg"
 import florBenavides from "./projects/florBenavides.jpg";
 import Bianely from "./projects/Bianely.jpg";
 import grubba from "./projects/grubba.jpg";
@@ -191,6 +192,7 @@ export const profile = {
 export const projects = {
     "belcorp" : belcorp,
     "removex" : removex,
+    "tepwebs": tepwebs,
     "florBenavides" : florBenavides,
     "Bianely" : Bianely,
     "grubba" : grubba,

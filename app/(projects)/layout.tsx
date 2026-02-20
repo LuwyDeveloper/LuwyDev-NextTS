@@ -4,13 +4,13 @@ import {HeaderProjects} from "@/components/projects/HeaderProjects";
 
 export const metadata: Metadata = {
   title: {
-    default: "Proyectos",
+    default: "Projects",
     template: "%s | Luwy Dyro",
   },
   description:
-    "Proyectos - Aplicaciones en Angular, React, Microfrontends, Design Systems, CMS, E-Commerce, Autentificaciones",
+    "Projects - Applications in Angular, React, Microfrontends, Design Systems, CMS, E-Commerce, Authentications",
   keywords:
-    "Luwy, Angular, React, Microfrontend, Design System, Autentificacion",
+    "Luwy, Angular, React, Microfrontend, Design System, Authentication",
 };
 
 export default function RootLayout({

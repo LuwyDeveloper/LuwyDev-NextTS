@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   description:
     "Luwy Dyro - Developer web Front End, UX Developer, E-commerce, SEO",
   keywords:
-    "luwydev, Luwy, Luwy Dyro, Desarrollador web, frontend, Ux developer, diseñador web",
+    "luwydev, Luwy, Luwy Dyro, Web developer, frontend, UX developer, web designer",
   authors: [{ name: "Luwy Dyro" }],
   robots: {
     index: true,

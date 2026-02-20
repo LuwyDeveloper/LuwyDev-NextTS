@@ -67,7 +67,9 @@ const contentOrder =
             <h2 className="text-2xl text-white font-medium mb-4">
               {project.title}
             </h2>
-            <p className="text-white mb-3">{t(project.description) && "No Translation - Description"}</p>
+            <p className="text-white mb-3"> {t.has(project.description)
+    ? t(project.description)
+    : "No Translation - Description"}</p>
             <div className="mb-2">
               {project.subtitle && (
                 <p className="text-white text-xl font-medium mb-2">

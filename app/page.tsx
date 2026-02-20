@@ -264,7 +264,7 @@ export default function Home() {
         >
           <div className="pt-28 pb-20">
             <div className="max-w-lg mx-auto text-center mb-10">
-              <h2 className="text-5xl font-urbanist text-white font-medium">
+              <h2 className="text-4xl xl:text-5xl text-white font-medium">
                 {t("Proyectos")}
               </h2>
             </div>
@@ -280,12 +280,12 @@ export default function Home() {
           </div>
         </div>
         <div
-          className="snap-start snap-normal slide-sec mx-auto pt-10 lg:pt-16 lg:max-w-7xl"
+          className="snap-start snap-normal slide-sec mx-auto lg:pt-30 2xl:pt-40 pb-20 lg:max-w-7xl"
           id="review"
         >
           <div className="pt-28 pb-20">
             <div className="max-w-lg mx-auto text-center mb-10">
-              <h2 className="text-5xl font-urbanist text-white font-medium">
+              <h2 className="text-4xl xl:text-5xl font-medium text-white">
                 {t("Empresas")}
               </h2>
             </div>
@@ -293,11 +293,11 @@ export default function Home() {
           </div>
         </div>
         <div
-          className="snap-start snap-normal slide-sec mx-auto pt-10 lg:pt-16 pb-3 lg:max-w-7xl"
+          className="snap-start snap-normal slide-sec mx-auto lg:pt-30 lg:pb-30 xl:pt-20 xl:pb-30 lg:max-w-7xl 2xl:pt-40 2xl:pb-30"
           id="contact"
         >
           <div>
-            <h2 className="text-white font-bold text-4xl leading-normal xl:text-5xl capitalize xl:leading-snug text-center">
+            <h2 className="text-white font-bold leading-normal text-4xl xl:text-5xl capitalize xl:leading-snug text-center">
               {t("Contácteme")}
             </h2>
             <h3 className="text-2xl text-white text-center pb-10">

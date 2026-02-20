@@ -3,11 +3,11 @@ import { projects } from "@/assets/imagenes";
 import { ProjectPreview } from "@/components/projects/ProjectPreview";
 
 export const metadata: Metadata = {
-  title: "CMS - Sistemas de Gestión de Contenidos",
+  title: "CMS - Content Management Systems",
   description:
-    "CMS - Proyectos de sitios web desarrollados en WordPress, enfocados en la facilidad de administración y actualización de contenido.",
+    "CMS - Website projects developed in WordPress, focused on ease of administration and content updating.",
   keywords:
-    "Luwy, CMS, WordPress, Gestión de Contenidos, Sitios Web, Desarrollo Web",
+    "Luwy, CMS, WordPress, Content Management, Websites, Web Development",
 };
 
 const florBenavides = {
@@ -32,7 +32,7 @@ const jjMining = {
   image: projects.jjmining,
   title: "JJ Mining",
   details: [{ title: "FrontEnd" }],
-  link: "https://luwydev.com/jjm/",
+  link: "https://mudanzamovinghouse.com/jjm/",
 };
 const trainingCertification = {
   image: projects.training,
@@ -46,6 +46,12 @@ const removex = {
   details: [{ title: "FrontEnd" }],
   link: "https://removex.pe/",
 };
+const tepwebs = {
+  image: projects.tepwebs,
+  title: "Tu Empresa Primero",
+  details: [{ title: "FrontEnd" }],
+  link: "https://tepwebs.com/",
+};
 
 export default function CmsProjects() {
   return (
@@ -57,6 +63,7 @@ export default function CmsProjects() {
         <ProjectPreview project={jjMining} />
         <ProjectPreview project={trainingCertification} />
         <ProjectPreview project={removex} />
+        <ProjectPreview project={tepwebs} />
       </div>
     </>
   );

@@ -3,11 +3,11 @@ import { projects } from "@/assets/imagenes";
 import { ProjectPreview } from "@/components/projects/ProjectPreview";
 
 export const metadata: Metadata = {
-  title: "Aplicaciones Angular",
+  title: "Angular Apps",
   description:
-    "Angular - Aplicaciones desarrolladas en Angular, utilizando las últimas versiones y características del framework.",
+    "Angular - Applications developed in Angular, using the latest versions and features of the framework.",
   keywords:
-    "Luwy, Angular, Angular 20, Angular 21, Signals, Zoneless, RxJS, TailwindCSS, Autentificación, Tienda Online, NgRx Signal Store",
+    "Luwy, Angular, Angular 20, Angular 21, Signals, Zoneless, RxJS, TailwindCSS, Authentication, Online Store, NgRx Signal Store",
 };
 
 const luwyGames = {

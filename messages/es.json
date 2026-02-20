@@ -24,6 +24,14 @@
     "Copyright": "Todos los derechos reservados",
     "Ver todos los Proyectos": "Ver todos los Proyectos"
   },
+  "Menu": {
+    "Home":"Inicio",
+    "Services":"Servicios",
+    "About Me":"Sobre Mí",
+    "Portfolio":"Portafolio",
+    "Companies":"Empresas",
+    "Contact":"Contacto"
+  },
   "ProjectPage": {
     "Proyectos": "Projectos",
     "Proyecto": "Projecto",
@@ -60,7 +68,7 @@
     "microfrontendPDescription1": "Desarrollado con Angular 21 como shell/remotes y un widget remoto en React (Vite + Module Federation), compartiendo estado (cart-state) y componentes UI (ui-kit) con estilos TailwindCSS v.4.1.",
     "microfrontendPDescription2": "Este proyecto implementa una arquitectura de 7 micro frontends encapsulada en Workspace - Shell compartiendo Tokens de UI - Design System",
     "designsystemPDescription1": "Monorepo de Design System que centraliza design tokens y una librería de componentes React, con un portal de documentación para validar y demostrar su uso.",
-    "":""
+    "none":""
   },
     "CardsHome": {
     "Dev Front End": "Dev Front End",

@@ -6,9 +6,9 @@ import { ProjectInfo } from "@/components/projects/ProjectInfo";
 export const metadata: Metadata = {
   title: "Microfrontend",
   description:
-    "Microfrontend - Implementación de arquitecturas de micro frontends utilizando Angular 21 y React con Vite, compartiendo estado y componentes UI.",
+    "Microfrontend - Implementation of microfrontend architectures using Angular 21 and React with Vite, sharing state and UI components.",
   keywords:
-    "Luwy, Microfrontend, Angular, React, Vite, Module Federation, Arquitectura, UI Compartida, Estado Compartido",
+    "Luwy, Microfrontend, Angular, React, Vite, Module Federation, Architecture, Shared UI, Shared State",
 };
 
 
